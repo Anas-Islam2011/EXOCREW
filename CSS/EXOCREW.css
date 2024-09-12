@@ -1,0 +1,106 @@
+nav{
+    background-image: url(../imgs/hubble-ngc2031-jpg.webp);
+}
+.nav-link{
+        color: #fff!important;
+        font-family: "Protest Guerrilla", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 21px;
+        margin:-4px;
+        width:135px ;
+        text-align: center;
+      
+}
+.logo{
+    width: 200px;
+    height: 75px;
+}
+#dropdown{
+    width:185px
+}
+.carousel-img{
+    width:1380.8px;
+    height: 580.4px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    border-radius: 50px;
+}
+body{
+    background-image: url(../imgs/hubble-ngc2031-jpg.webp);
+    background-repeat: repeat;
+    background-position: fixed;
+    height: 500px;
+    text-align: center;
+}
+.about-card-img{
+        height: 400px;
+        width: 400px;
+}
+.card{
+    position: relative;
+    left:150px ;
+    text-align: start;
+}
+.card1{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    top: 20px;
+    left: 0;
+    background-color:#FCFAD4 ;
+    height:500px;
+    width:1124px ;
+    border-radius: 20px;
+}
+.s1{
+    position: absolute;
+    left: 100px;
+   }
+   .s1-img{
+    box-shadow:  -18px -17px 0px #555555;
+}
+.s2-p{
+    max-width: 600px;
+}
+.h{
+    color: #333;
+    font-size: 36px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: normal;
+   }
+   .h::after{
+    content: "";
+    height: 65%;
+    width: 4px;
+    background-color: #1F5579;
+    display:flex;
+    left: -5px;
+    top: 8px;
+    position: absolute;
+   }
+   .s2{
+    position: absolute;
+    right: 50px;
+   }
+   .info-s{
+    display: flex;
+    justify-content: space-around;
+
+}
+.r1, .r2{
+    display: flex;
+    flex-direction: column;
+}
+.btns{
+    background-color: #1F5579;
+    color: white;
+    font-size:20px;
+    font-family: 'Source Sans 3', sans-serif;
+    border:0px;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
